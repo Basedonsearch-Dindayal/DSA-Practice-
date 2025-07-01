@@ -4,7 +4,7 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] number = {2, 4, 6, 8, 10, 12, 14};
 
-        try (Scanner sc = new Scanner(System.in)) {
+            Scanner sc = new Scanner(System.in);
             System.out.print("Enter key to search: ");
             int key = sc.nextInt();
 
@@ -14,7 +14,6 @@ public class BinarySearch {
             else
                 System.out.println("Index for key is: " + result);
         }
-    }
 
     public static int binarySearch(int[] arr, int key) {
         int start = 0, end = arr.length - 1;
