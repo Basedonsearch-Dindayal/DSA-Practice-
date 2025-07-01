@@ -13,6 +13,7 @@ public class ComplexNumber {
         add(a, b, c, d);
         subs(a, b, c, d);
         product(a, b, c, d);
+        sc.close();
     }
     public static void add (int a, int b, int c, int d) {
         int z1 = a+c;
