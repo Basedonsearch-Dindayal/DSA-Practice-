@@ -13,6 +13,7 @@ public class BinarySearch {
                 System.out.println("Key not found.");
             else
                 System.out.println("Index for key is: " + result);
+        sc.close();        
         }
 
     public static int binarySearch(int[] arr, int key) {
