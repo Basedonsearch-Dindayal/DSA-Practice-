@@ -18,14 +18,7 @@ public class GridWays {
     //     int w2 = findWays(i, j+1, m, n);
     //     return w1+w2;
     // }
-    // int upValue = m+n-2;
-    // int ways = 1;
-    // for(i=0;i<=1;i--){
-    //     ways = m*ways;
 
-    // }
-    // return upValue/ways*ways;
-    // }
     public static long factorial(int num) {
     long result = 1;
     for (int i = 2; i <= num; i++) {
